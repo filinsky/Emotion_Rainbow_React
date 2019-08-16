@@ -7,10 +7,7 @@ function RainbowWrapper(props) {
   const leaves = emotions.map(item => {
     return (
       <RainbowLeaf
-        /*       id={item.id}
-        name={item.name}
-        label={item.label}
-  */
+        key={item.name}
         handler={props.handleEmotion}
         emotion={item}
       />

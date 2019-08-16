@@ -5,7 +5,9 @@ class TopElement extends Component {
     val: "3"
   };
 
-  onChange = e => this.setState({ val: e.target.value });
+  onChange = e => {
+    this.props.setVal(e.target.value);
+  };
 
   render() {
     return (
@@ -19,7 +21,7 @@ class TopElement extends Component {
             name="range"
             min="1"
             max="5"
-            value={this.state.val}
+            value={this.props.value}
             onChange={this.onChange}
           />
         </div>
