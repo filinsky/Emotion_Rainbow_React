@@ -1,4 +1,5 @@
 import React from "react";
+import "./textWrapper.css";
 
 function TextWrapper({ emotionElement, text }) {
   return (

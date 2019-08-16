@@ -10,7 +10,7 @@ use for rainbow: font-family: 'Caveat', cursive; */
 /*Global values - background, text-color*/
 body {
   color: white;
-  background: black;
+  background: rgb(14, 14, 14);
 }
 /*Main container flexbox*/
 .wrapper {

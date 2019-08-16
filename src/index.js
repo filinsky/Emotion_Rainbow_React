@@ -8,9 +8,19 @@ import emotions from "./emotions.js";
 import "./styles.css";
 
 class App extends React.Component {
+  // const default = ;
+
   state = {
     emotionItem: "",
-    description: "",
+    description: {
+      where_from:
+        "Для понимания эмоции важно понимать причину ее возникновения",
+      purpose:
+        "Эмоция всегда появляется с какой-то целью и сообщает важную информацию о ситуации",
+      wish: "как достичь той цели, с которой эмоция приходит?",
+      how_to:
+        "Эмоция - это добрый друг, который приходит для того, чтобы помочь. Как установить с эмоцией взаимовыгодные отношения?"
+    },
     intensity: 2
   };
 
