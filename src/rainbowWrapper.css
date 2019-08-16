@@ -1,0 +1,258 @@
+/*FONTS 
+use for rainbow: font-family: 'Caveat', cursive; */
+@import url(https://fonts.googleapis.com/css?family=Bad+Script|Caveat|Marck+Script|Pacifico&display=swap);
+
+/*Global values - background, text-color*/
+body {
+  color: white;
+  background: black;
+}
+
+/*Rainbow wrapper*/
+.rainbow-wrapper {
+  position: relative;
+  width: 700px;
+  height: 600px;
+}
+
+/*Rainbow elements*/
+.leaf {
+  position: absolute;
+  top: 60px;
+  left: 40%;
+  transform-origin: bottom;
+}
+
+.rainbow-border {
+  width: 37px;
+  height: 100px;
+  position: relative;
+  border-style: solid;
+  border-width: 140px 27px 0px 27px;
+}
+
+.rainbow-0 {
+  border-color: red transparent transparent transparent;
+}
+.label-0 {
+  left: 15px;
+  top: -50px;
+}
+
+.leaf-1 {
+  transform: rotate(22.5deg);
+}
+.rainbow-1 {
+  border-color: #ff7400 transparent transparent transparent;
+}
+.label-1 {
+  transform: rotate(-22.5deg);
+  left: 25px;
+  top: -70px;
+}
+
+.leaf-2 {
+  transform: rotate(45deg);
+}
+.rainbow-2 {
+  border-color: #ffcd00 transparent transparent transparent;
+}
+.label-2 {
+  transform: rotate(-45deg);
+  left: 25px;
+  top: -70px;
+}
+
+.leaf-3 {
+  transform: rotate(67.5deg);
+}
+.rainbow-3 {
+  border-color: #34d800 transparent transparent transparent;
+}
+.label-3 {
+  transform: rotate(-67.5deg);
+  left: 0px;
+  top: -100px;
+}
+
+.leaf-4 {
+  transform: rotate(90deg);
+}
+.rainbow-4 {
+  border-color: #00b358 transparent transparent transparent;
+}
+.label-4 {
+  transform: rotate(-90deg);
+  left: -15px;
+  top: -90px;
+}
+
+.leaf-5 {
+  transform: rotate(112.5deg);
+}
+.rainbow-5 {
+  border-color: #028e9b transparent transparent transparent;
+}
+.label-5 {
+  transform: rotate(-112.5deg);
+  left: 10px;
+  top: -60px;
+}
+
+.leaf-6 {
+  transform: rotate(135deg);
+}
+.rainbow-6 {
+  border-color: #0c5da5 transparent transparent transparent;
+}
+.label-6 {
+  transform: rotate(-135deg);
+  left: -5px;
+  top: -65px;
+}
+
+.leaf-7 {
+  transform: rotate(157.5deg);
+}
+.rainbow-7 {
+  border-color: #043a6b transparent transparent transparent;
+}
+.label-7 {
+  transform: rotate(-157.5deg);
+  left: 25px;
+  top: -55px;
+}
+
+.leaf-8 {
+  transform: rotate(180deg);
+}
+.rainbow-8 {
+  border-color: #081073 transparent transparent transparent;
+}
+.label-8 {
+  transform: rotate(180deg);
+  left: -5px;
+  top: -50px;
+}
+
+.leaf-9 {
+  transform: rotate(202.5deg);
+}
+.rainbow-9 {
+  border-color: #4013af transparent transparent transparent;
+}
+.label-9 {
+  transform: rotate(-202.5deg);
+  left: 20px;
+  top: -60px;
+}
+
+.leaf-10 {
+  transform: rotate(225deg);
+}
+.rainbow-10 {
+  border-color: #5c0dac transparent transparent transparent;
+}
+.label-10 {
+  transform: rotate(-225deg);
+  left: 25px;
+  top: -60px;
+}
+
+.leaf-11 {
+  transform: rotate(247.5deg);
+}
+.rainbow-11 {
+  border-color: #7109aa transparent transparent transparent;
+}
+.label-11 {
+  transform: rotate(-247.5deg);
+  left: 15px;
+  top: -75px;
+}
+
+.leaf-12 {
+  transform: rotate(270deg);
+}
+.rainbow-12 {
+  border-color: #8b04a8 transparent transparent transparent;
+}
+.label-12 {
+  transform: rotate(-270deg);
+  left: 10px;
+  top: -65px;
+}
+
+.leaf-13 {
+  transform: rotate(292.5deg);
+}
+.rainbow-13 {
+  border-color: #a600a6 transparent transparent transparent;
+}
+.label-13 {
+  transform: rotate(-292.5deg);
+  left: 10px;
+  top: -65px;
+}
+
+.leaf-14 {
+  transform: rotate(315deg);
+}
+.rainbow-14 {
+  border-color: #ce0071 transparent transparent transparent;
+}
+.label-14 {
+  transform: rotate(-315deg);
+  left: -40px;
+  top: -80px;
+}
+
+.leaf-15 {
+  transform: rotate(337.5deg);
+}
+.rainbow-15 {
+  border-color: #e20048 transparent transparent transparent;
+}
+.label-15 {
+  transform: rotate(-337.5deg);
+  left: -115px;
+  top: -80px;
+}
+
+.rainbow-center {
+  font-family: "Caveat", cursive;
+  color: white;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 40%;
+  left: 35%;
+  text-align: center;
+  z-index: 10;
+  font-size: 45px;
+  transform: rotate(-20deg);
+  position: absolute;
+}
+
+.label {
+  position: absolute;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 4px;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.label-left30 {
+  transform: rotate(30deg);
+}
+
+.rainbow-border:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.label:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

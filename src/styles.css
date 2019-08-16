@@ -1,0 +1,167 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*FONTS 
+use for rainbow: font-family: 'Caveat', cursive; */
+@import url(https://fonts.googleapis.com/css?family=Caveat&display=swap);
+
+/*Global values - background, text-color*/
+body {
+  color: white;
+  background: black;
+}
+/*Main container flexbox*/
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+/*All flex elements*/
+.flex-element {
+  padding: 5px;
+}
+
+/*Top block with input range*/
+.top {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 24px;
+}
+
+/*Left and Right blocks*/
+.item {
+  transition: flex 1s ease-in 0s;
+}
+
+/*Left flex element*/
+.left {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex: 1 1 705px;
+}
+/*Rainbow wrapper*/
+/*.rainbow-wrapper {
+  position: relative;
+  width: 700px;
+  height: 600px;
+}*/
+
+/*Right flex element*/
+.right {
+  flex: 1 1 45%;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/*Rainbow elements*/
+/*.rainbow-border {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 60px;
+  left: 40%;
+  border-style: solid;
+  border-width: 140px 30px 0px 30px;
+  transform-origin: bottom;
+}
+
+.rainbow-up {
+  border-color: red transparent transparent transparent;
+}
+.rainbow-right30 {
+  border-color: #ff7400 transparent transparent transparent;
+  transform: rotate(30deg);
+}
+.rainbow-right60 {
+  transform: rotate(60deg);
+  border-color: #ff9200 transparent transparent transparent;
+}
+.rainbow-right90 {
+  transform: rotate(90deg);
+  border-color: #ffd300 transparent transparent transparent;
+}
+.rainbow-right120 {
+  border-color: #ffff00 transparent transparent transparent;
+  transform: rotate(120deg);
+}
+.rainbow-right150 {
+  border-color: #9bed00 transparent transparent transparent;
+  transform: rotate(150deg);
+}
+.rainbow-left30 {
+  border-color: #cd0074 transparent transparent transparent;
+  transform: rotate(-30deg);
+}
+.rainbow-left60 {
+  border-color: #7309aa transparent transparent transparent;
+  transform: rotate(-60deg);
+}
+.rainbow-left90 {
+  border-color: #3914af transparent transparent transparent;
+  transform: rotate(-90deg);
+}
+.rainbow-left120 {
+  border-color: #1240ab transparent transparent transparent;
+  transform: rotate(-120deg);
+}
+.rainbow-left150 {
+  border-color: #01939a transparent transparent transparent;
+  transform: rotate(-150deg);
+}
+.rainbow-bottom {
+  border-color: #00c618 transparent transparent transparent;
+  transform: rotate(-180deg);
+}
+
+.rainbow-center {
+  font-family: "Caveat", cursive;
+  color: white;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 40%;
+  left: 35%;
+  text-align: center;
+  z-index: 10;
+  font-size: 45px;
+  transform: rotate(-20deg);
+  position: absolute;
+}
+
+.rainbow-border::before {
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 15%;
+  position: absolute;
+  top: -190%;
+  left: -25%;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+}
+#anger::before {
+  content: "Злость";
+}
+#sadness::before {
+  content: "Печаль";
+  transform: rotate(60deg);
+  top: -210%;
+}
+#joy::before {
+  content: "Радость";
+  transform: rotate(180deg);
+}
+
+.rainbow-border:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+*/
